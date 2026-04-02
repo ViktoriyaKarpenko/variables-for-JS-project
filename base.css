@@ -9,38 +9,23 @@ body {
 
 .title-section {
   font-weight: var(--font-weight-secondary);
-  font-size: var(--font-size-main);
+  font-size: var(--font-size-secondary);
   line-height: var(--line-height-secondary);
   letter-spacing: var(--letter-spacing-main);
+}
+
+@media screen and (min-width: 1440px) {
+  .title-section {
+    font-size: var(--font-size-rare);
+  }
 }
 
 .button {
   font-family: inherit;
   font-weight: var(--font-weight-rare);
-  font-size: var(--font-size-main);
-  line-height: var(--line-height-secondary);
-  letter-spacing: var(--letter-spacing-additional);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-main);
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius-btn);
-  border: none;
-  cursor: pointer;
   transition: opacity var(--time) var(--cubic-bezier);
-}
-
-.btn-close {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border: none;
-  color: var(--color-main);
-}
-
-.btn-close-icon {
-  fill: currentColor;
 }
