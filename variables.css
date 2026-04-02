@@ -1,25 +1,29 @@
 :root {
   --background-main: #fff;
   --background-about-us: #f0e6e6;
-  --background-footer: #6b0609;
+  --background-secondary: #6b0609;
   --background-backdrop: rgba(0, 0, 0, 0.25);
-  --background-btn-main: #6b0609;
-  --background-btn-secondary: rgba(8, 12, 9, 0.05);
-  --background-input: rgba(8, 12, 9, 0.05);
-  --background-slider-normal: #f2f2f2;
+  --background-additional: rgba(8, 12, 9, 0.05);
+  --background-slider: #f2f2f2;
   --background-slider-hover: #975052;
+  --background-sofacolor-1: #c7c3bb;
+  --background-sofacolor-2: #c7aa80;
+  --background-sofacolor-3: #201a19;
+  --background-gradient-hiro: rgba(0, 0, 0, 0.5);
+  --background-gradient-cards: rgba(0, 0, 0, 0.4);
   --color-main: #080c09;
   --color-secondary: #fff;
+  --color-input-placeholder: rgba(8, 12, 9, 0.6);
   --color-input-error: #6b0609;
-  --font-weight-main: 700;
-  --font-weight-secondary: 600;
-  --font-weight-additional: 400;
+  --font-weight-main: 400;
+  --font-weight-secondary: 700;
+  --font-weight-additional: 600;
   --font-weight-rare: 500;
   --font-size-body: 16px;
   --font-size-main: 18px;
-  --font-size-secondary: 48px;
+  --font-size-secondary: 36px;
   --font-size-additional: 20px;
-  --font-size-rare: 36px;
+  --font-size-rare: 48px;
   --font-size-minor: 32px;
   --font-size-unitary: 40px;
   --font-size-hiro-title: 56px;
@@ -32,7 +36,12 @@
   --border-radius-cards-img: 8px;
   --border-radius-btn: 100px;
   --border-radius-input: 12px;
-  --accent-border: 8px solid #6b0609;
+  --border-radius-sofa-color: 64px;
+  --border-cards-accent: 8px solid #6b0609;
+  --border-sofacolor-accent: 4px solid #838584;
+  --border-input: 1px solid rgba(8, 12, 9, 0.15);
+  --border-input-accent: 1px solid rgba(8, 12, 9, 0.4);
+  --border-input-error: 1px solid #6b0609;
   --box-shadow:
     0 1px 2px 0 rgba(8, 12, 9, 0.05), inset 0 -2px 1px 0 rgba(8, 12, 9, 0.05),
     inset 0 0 0 1px rgba(8, 12, 9, 0.05);

@@ -1,0 +1,46 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: var(--font-weight-main);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-main);
+  color: var(--color-main);
+  background-color: var(--background-main);
+}
+
+.title-section {
+  font-weight: var(--font-weight-secondary);
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-secondary);
+  letter-spacing: var(--letter-spacing-main);
+}
+
+.button {
+  font-family: inherit;
+  font-weight: var(--font-weight-rare);
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-secondary);
+  letter-spacing: var(--letter-spacing-additional);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius-btn);
+  border: none;
+  cursor: pointer;
+  transition: opacity var(--time) var(--cubic-bezier);
+}
+
+.btn-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  color: var(--color-main);
+}
+
+.btn-close-icon {
+  fill: currentColor;
+}
